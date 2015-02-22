@@ -1,7 +1,7 @@
 # latino_hackathon
 Code from the Latino Hackathon on International Open Data Day (21-02-2015)
 
-We worked to identify foreclosed single-family houses in Cook County that have been bought by Independent Homes, a subsidiary of the global private equity firm Blackstone.
+We worked to identify foreclosed single-family houses in Cook County that have been bought by [Invitation Homes](http://invitationhomes.com/), a subsidiary of the global private equity firm [Blackstone](http://www.blackstone.com/).
 
 We can find the properties via the [Cook County Recorder of Deeds website](http://12.218.239.82/i2/default.aspx?AspxAutoDetectCookieSupport=1), albeit through a clumsily manual process. [This document describes the manual process involved](https://docs.google.com/document/d/1BL_egyUkr5G6GBLSj7K78OaEecZK7Lc_eyXjmVOOCtc/pub).
 
