@@ -41,7 +41,6 @@ def get_response_by_post(form_data, session_id):
     # I captured these cookies from one request in Chrome; the session ID will probably need to be changed
     cookies_raw = "PopupImgWidth=800; PopupImgHeight=700; PopupImgTop=100; PopupImgLeft=100; AspxAutoDetectCookieSupport=1; ASP.NET_SessionId=%s; IsImageUndock=False; GroupListPageSize=50; PageSize=100" % session_id
     cookies = dict(map(lambda s: s.split('='), filter(lambda s: len(s) > 0, cookies_raw.split('; '))))
-    cookies['ASP.NET_SessionId'] = 'monkeydogs'
     r = requests.post(BASE_URL, data=json.dumps(form_data), cookies=cookies)
     return r.content
 
